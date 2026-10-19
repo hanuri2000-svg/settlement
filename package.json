@@ -1,0 +1,14 @@
+{
+  "name": "settlement",
+  "private": true,
+  "version": "1.6.4",
+  "scripts": {
+    "test": "node --test tests/image-export.test.cjs",
+    "test:browser": "node tests/browser-export.cjs"
+  },
+  "devDependencies": {
+    "@fontsource/noto-sans-kr": "5.2.8",
+    "html2canvas": "1.4.1",
+    "playwright": "1.62.1"
+  }
+}
